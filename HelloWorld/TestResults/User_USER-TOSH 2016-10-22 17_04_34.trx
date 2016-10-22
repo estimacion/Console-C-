@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c98f0f16-adf2-4b1d-ad53-8c51b5185c6c" name="User@USER-TOSH 2016-10-22 17:04:34" runUser="User-TOSH\User" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8a89919b-67c4-4fb9-a531-50d8315e1de8">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="User_USER-TOSH 2016-10-22 17_04_34" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-10-22T17:04:34.0548647+02:00" queuing="2016-10-22T17:04:37.0130339+02:00" start="2016-10-22T17:04:37.4820608+02:00" finish="2016-10-22T17:04:38.4401155+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="helloworldtests\bin\debug\helloworldtests.dll" id="5e31dd07-94a6-154a-c432-42c66e0a0486">
+      <Execution id="bac1464a-4f52-4ba5-96db-0a9d903dc2e2" />
+      <TestMethod codeBase="C:/Users/User/Documents/MOOC/Pluralsight/Certyfikaty/Jenkins - introduction/jenkins-introduction/materials/3-jenkins-introduction-m3-simple-exercise-files/demos/HelloWorld/HelloWorldTests/bin/debug/HelloWorldTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldTests.UnitTest1, HelloWorldTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5e31dd07-94a6-154a-c432-42c66e0a0486" executionId="bac1464a-4f52-4ba5-96db-0a9d903dc2e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bac1464a-4f52-4ba5-96db-0a9d903dc2e2" testId="5e31dd07-94a6-154a-c432-42c66e0a0486" testName="TestMethod1" computerName="USER-TOSH" duration="00:00:00.0226594" startTime="2016-10-22T17:04:37.6920728+02:00" endTime="2016-10-22T17:04:38.2881069+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bac1464a-4f52-4ba5-96db-0a9d903dc2e2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
